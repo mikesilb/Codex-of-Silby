@@ -1,0 +1,19 @@
+2 (1 and itself, no possibilities in between)
+3 (1 and itself, no 2)
+4 (NO..2)
+5 (1 and itself, no 2,3,4)
+6 1, 2, 3, 
+
+
+
+num_test = 3
+total_primes = 1
+
+	 until total_primes = 6
+	     for i in 2..num_test-1    #For that specific num to test if prime
+    	     	 if num % i != 0
+       		    total_primes += 1
+	     	 end
+		 puts num_test
+	     end
+	   puts num_test 
