@@ -1,9 +1,0 @@
-def largest_prime(num)
-    x=num
-    for div from 2..num
-    	while div |= num
-	      if num % div == 0
-	    
-	newnum=    
-	end
-    end	   
