@@ -1,0 +1,12 @@
+Divisible by all numbers
+div by 20 -> Then 10, 5, 4, 2 not needed
+div by 19 
+div by 18 -> 2, 9, 6, 3 not needed
+div by 17
+div by 16 -> 8, 2, 4 not needed
+div by 15 
+div by 14
+div by 13
+div by 12
+div by 11
+div by 7

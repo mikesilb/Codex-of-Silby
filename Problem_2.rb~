@@ -1,0 +1,26 @@
+#def Fib_even_sum(num)
+  fib = Array.new
+  fib[1]=1
+  fib[2]=2
+  sum=fib[2]
+
+  for n in 3..31
+    fib[n] = fib[n-1] + fib[n-2]
+    fib[n+1] = fib[n-1] + fib[n]
+    fib[n+2] = fib[n] + fib[n+1] 
+#    break if fib[n+1] > 100
+#    puts fib[n+1]
+    if (n % 2) == 0
+       sum += fib[n]
+      
+    end 
+  end
+#puts fib[4]
+puts sum
+#return sum
+#end 
+
+
+#answer = Fib_even_sum(29)
+#puts answer
+

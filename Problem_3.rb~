@@ -1,0 +1,11 @@
+def largest_prime(num)
+    x=num
+    for div from 2..(num-1)
+    	if x % div == 0 
+	   newnum = x/div
+	end
+    end
+    return newnum
+end	   
+
+y= largest_prime(9)
