@@ -1,1 +1,10 @@
-This will eventually pseudocode program 8
+One-Three arrays:
+
+big_array = the entire number....remains constant, 1000 long
+small_array = window of five consec digits. Slides after determining product #unsure as to whether this is needed as an array.
+
+
+
+if newproduct > bestproduct
+   bestproduct == newproduct
+end
